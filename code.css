@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Sofia&display=swap');
+html{
+    font-family: 'Open Sans',sans-serif;
+    background: #B7BECE;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#container{
+    position: relative;
+    display: flex;
+}
+#profile{
+    flex: 15%;
+    display: block;
+    position: relative;
+    margin: 5% 2% 0 10%;
+    width: 100%;
+    height: 100%;
+}
+#info-cards{
+    flex: 55%;
+    display: block;
+    margin-top: 5%;
+    margin-right: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+#image,#profile-photo{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+#name{
+    font-size: 23px ;
+    line-height: 20px;
+}
+#about,.card  { 
+
+    padding: 0 0 0 15px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+#about{
+    font-size: 20px ;
+    padding: 0 ;
+}
+#name, #about{
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+#email{
+    font-size: 16.5px ;
+    font-weight: bold ;
+    font-family: Arial;
+}
+#college,#email,#year-graduation,#education,#telephone,#phone{
+    color: #555;
+    font-size: 13.5px;
+}
+strong,span{
+    color: black;
+    font-size: 16px;
+}
+#about{
+    display: inline-block;
+}
+
+.card{
+
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
+    overflow-x: hidden;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 15px 30px 30px 30px;
+    background-color: #E5E6E1;
+    border-radius: 10px;
+}
+
+
+
+.tags{
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.tags span{
+    font-size: 14px;
+    font-weight: normal;
+    color: #0e141e;
+}
+@media screen and (max-width:1090px){
+    #profile{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width:850px){
+    #container{
+        display: block;
+    }
+    #profile{
+        width: 90%;
+    }
+
+}
